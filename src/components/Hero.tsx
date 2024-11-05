@@ -16,7 +16,7 @@ export function Hero() {
               At Cloud Native Day Oslo, you can expect to dive deep into the latest advancements in cloud technology. Industry leaders will share their insights on cutting-edge tools and practices that are shaping the future of cloud-native development.
             </p>
             <p>
-              You'll have the opportunity to network with fellow professionals, exchange ideas, and collaborate on innovative projects. Whether you're a seasoned expert or just starting out, Cloud Native Day Oslo offers something for everyone looking to enhance their cloud-native skills.
+              You&apos;ll have the opportunity to network with fellow professionals, exchange ideas, and collaborate on innovative projects. Whether you&apos;re a seasoned expert or just starting out, Cloud Native Day Oslo offers something for everyone looking to enhance their cloud-native skills.
             </p>
           </div>
           <Button href="#" className="mt-10 w-full sm:hidden">
