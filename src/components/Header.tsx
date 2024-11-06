@@ -3,6 +3,10 @@ import { Container } from '@/components/Container'
 import { DiamondIcon } from '@/components/DiamondIcon'
 import { Logo } from '@/components/Logo'
 
+import getConfig from 'next/config'
+
+const { publicRuntimeConfig } = getConfig()
+
 export function Header() {
   return (
     <header className="relative z-50 flex-none lg:pt-11">
@@ -20,8 +24,8 @@ export function Header() {
           </div>
         </div>
         <div className="hidden sm:mt-10 sm:flex lg:mt-0 lg:grow lg:basis-0 lg:justify-end lg:w-full">
-          <Button href="https://ti.to/cloud-native-norway/cnd-oslo-25" className="whitespace-nowrap mr-4">Get your tickets</Button>
-          <Button href="https://sessionize.com/cloud-native-day-oslo-2025/" className="whitespace-nowrap bg-purple-500 hover:bg-purple-400">Submit to CFP</Button>
+          <Button href={publicRuntimeConfig.registrationLink} className="whitespace-nowrap mr-4">Get your tickets</Button>
+          <Button href={publicRuntimeConfig.cfpLink} className="whitespace-nowrap bg-purple-500 hover:bg-purple-400">Submit to CFP</Button>
         </div>
       </Container>
     </header>
