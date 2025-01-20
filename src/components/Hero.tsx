@@ -1,6 +1,10 @@
 import { BackgroundImage } from '@/components/BackgroundImage'
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
+import Image from 'next/image';
+
+import sopraLogo from '@/images/logos/Sopra_Steria_logo.svg'
+import redpillLogo from '@/images/logos/Redpill-Linpro-logo-red-1200px-800x385.png'
 
 import getConfig from 'next/config'
 
@@ -44,6 +48,10 @@ export function Hero() {
               </div>
             ))}
           </dl>
+          <div className="columns-3 gap-9 max-w-30 mt-20 ">
+            <Image src={sopraLogo} alt="Sopra Steria" className="pt-9" />
+            <Image src={redpillLogo} alt="Redpill Linpro" />
+          </div>
         </div>
       </Container>
     </div>
