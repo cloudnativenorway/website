@@ -5,6 +5,7 @@ import Image from 'next/image';
 
 import sopraLogo from '@/images/logos/Sopra_Steria_logo.svg'
 import redpillLogo from '@/images/logos/Redpill-Linpro-logo-red-1200px-800x385.png'
+import sysdigLogo from '@/images/logos/Sysdig_lockup_black.svg'
 
 import getConfig from 'next/config'
 
@@ -51,6 +52,7 @@ export function Hero() {
           <div className="columns-3 gap-9 max-w-30 mt-20 ">
             <Image src={sopraLogo} alt="Sopra Steria" className="pt-9" />
             <Image src={redpillLogo} alt="Redpill Linpro" />
+            <Image src={sysdigLogo} alt="Sysdig" className="pt-6" />
           </div>
         </div>
       </Container>
