@@ -25,7 +25,7 @@ export function Header() {
         </div>
         <div className="hidden sm:mt-10 sm:flex lg:mt-0 lg:grow lg:basis-0 lg:justify-end lg:w-full">
           <Button href={publicRuntimeConfig.registrationLink} className="whitespace-nowrap mr-4">Get your tickets</Button>
-          <Button href={publicRuntimeConfig.cfpLink} className="whitespace-nowrap bg-purple-500 hover:bg-purple-400">Submit to CFP</Button>
+          <Button href={publicRuntimeConfig.scheduleLink} className="whitespace-nowrap bg-purple-500 hover:bg-purple-400">Schedule</Button>
         </div>
       </Container>
     </header>
