@@ -6,6 +6,9 @@ import Image from 'next/image';
 import sopraLogo from '@/images/logos/Sopra_Steria_logo.svg'
 import redpillLogo from '@/images/logos/Redpill-Linpro-logo-red-1200px-800x385.png'
 import sysdigLogo from '@/images/logos/Sysdig_lockup_black.svg'
+import o3cLogo from '@/images/logos/o3logo.svg'
+import edgeworksLogo from '@/images/logos/edgeworks.png'
+import enablerLogo from '@/images/logos/enablerlogo.svg'
 
 import getConfig from 'next/config'
 
@@ -49,10 +52,16 @@ export function Hero() {
               </div>
             ))}
           </dl>
-          <div className="columns-3 gap-9 max-w-30 mt-20 ">
-            <Image src={sopraLogo} alt="Sopra Steria" className="pt-9" />
-            <Image src={redpillLogo} alt="Redpill Linpro" />
-            <Image src={sysdigLogo} alt="Sysdig" className="pt-6" />
+          <h3 className="mt-5 font-display text-3xl font-bold tracking-tighter text-blue-600 sm:text-3xl">Our sponsors:</h3>
+          <div className="columns-3 gap-9 max-w-30 mt-10 ">
+            <a href="https://www.soprasteria.com"><Image src={sopraLogo} alt="Sopra Steria" className="pt-9" /></a>
+            <a href="https://www.redpill-linpro.com"><Image src={redpillLogo} alt="Redpill Linpro" /></a>
+            <a href="https://sysdig.com"><Image src={sysdigLogo} alt="Sysdig" className="pt-6" /></a>
+          </div>
+          <div className="columns-3 gap-9 max-w-30 mt-10 ">
+            <a href="https://www.o3c.no"><Image src={o3cLogo} alt="O3 Cyber" className="pt-5 w-40" /></a>
+            <a href="https://www.enabler.no"><Image src={enablerLogo} alt="Enabler" className="pt-16 w-60" /></a>
+            <a href="https://www.edgeworks.no"><Image src={edgeworksLogo} alt="Edgeworks" className="pt-14 w-50" /></a>
           </div>
         </div>
       </Container>
