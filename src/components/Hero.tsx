@@ -52,16 +52,20 @@ export function Hero() {
               </div>
             ))}
           </dl>
-          <h3 className="mt-5 font-display text-3xl font-bold tracking-tighter text-blue-600 sm:text-3xl">Our sponsors:</h3>
+          <h3 className="mt-5 font-display text-3xl font-bold tracking-tighter text-blue-600 sm:text-3xl">Primary Sponsors:</h3>
           <div className="columns-3 gap-9 max-w-30 mt-10 ">
             <a href="https://www.soprasteria.com"><Image src={sopraLogo} alt="Sopra Steria" className="pt-9" /></a>
             <a href="https://www.redpill-linpro.com"><Image src={redpillLogo} alt="Redpill Linpro" /></a>
             <a href="https://sysdig.com"><Image src={sysdigLogo} alt="Sysdig" className="pt-6" /></a>
           </div>
+          <h3 className="mt-5 font-display text-3xl font-bold tracking-tighter text-blue-600 sm:text-3xl">Sponsors:</h3>
           <div className="columns-3 gap-9 max-w-30 mt-10 ">
-            <a href="https://www.o3c.no"><Image src={o3cLogo} alt="O3 Cyber" className="pt-5 w-40" /></a>
+            <a href="https://www.o3c.no"><Image src={o3cLogo} alt="O3 Cyber" className="pt-3 w-40" /></a>
             <a href="https://www.enabler.no"><Image src={enablerLogo} alt="Enabler" className="pt-16 w-60" /></a>
-            <a href="https://www.edgeworks.no"><Image src={edgeworksLogo} alt="Edgeworks" className="pt-14 w-50" /></a>
+          </div>
+          <h3 className="mt-5 font-display text-3xl font-bold tracking-tighter text-blue-600 sm:text-3xl">Community Sponsors:</h3>
+          <div className="columns-3 gap-9 max-w-30 mt-10 ">
+            <a href="https://www.edgeworks.no"><Image src={edgeworksLogo} alt="Edgeworks" className="pt-1 w-50" /></a>
           </div>
         </div>
       </Container>
